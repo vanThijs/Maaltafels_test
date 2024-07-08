@@ -1,3 +1,3 @@
 Aantal oefeningen = 30
 Hoogste factor(Standaard: 10) = 10
-Maaltafels van (gescheiden door komma) = 7
+Maaltafels van (gescheiden door komma) = 0,1,2,3,4,5,6,7,8,9,10

@@ -1,6 +1,5 @@
 import streamlit as st
-
-import streamlit as st
+import streamlit_shortcuts
 import random
 import time
 import os
@@ -19,12 +18,16 @@ def load_settings(settings_file):
             for line in lines:
                 if "Aantal oefeningen" in line:
                     settings["num_exercises"] = int(line.split("=")[1])
+                    print(f'Read amount of exercices: {settings["num_exercises"]}')
                 elif "Hoogste factor" in line:
                     settings["num1_limit"] = int(line.split("=")[1])
+                    print(f'Highest factor: {settings["num1_limit"]}')
                 elif "Maaltafels van" in line:
                     settings["base_values"] = [int(value) for value in line.split("=")[1].strip().split(",")]
+                    print(f'Base values: {settings["base_values"]}')
     except FileNotFoundError:
         generate_default_settings(settings_file)
+        print(f'Default settingsfile not found!')
     return settings
 
 # Function to generate default settings file
