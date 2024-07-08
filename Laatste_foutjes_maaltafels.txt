@@ -1,0 +1,7 @@
+	Théa(2024-05-17 08:18:08.767080
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+Théa: Fout: 7 x 7 = 94 (Juist: 49)
+Théa: Fout: 4 x 7 = 29 (Juist: 28)
+Thijs: Fout:  = 0 (Juist: None)
+Thijs: Fout: 10 x 7 = 10 (Juist: 70)
